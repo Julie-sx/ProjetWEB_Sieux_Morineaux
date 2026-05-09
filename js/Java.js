@@ -77,6 +77,22 @@ function allerA(position) {
 }
 
 allerA(0);
-setInterval(() => allerA(index + getNbVisibles()), 3000);
+setInterval(() => allerA(index + getNbVisibles()), 5000);
 
 window.addEventListener('resize', () => allerA(index));
+
+// Recherche pour la page vie étudiante
+
+function filtrerAssos() {
+    const q = document.getElementById('recherche-asso').value.toLowerCase();
+    document.querySelectorAll('.carte-asso').forEach(carte => {
+        const titre = carte.querySelector('h3').innerText.toLowerCase();
+        carte.style.display = titre.includes(q) ? '' : 'none';
+    });
+}
+
+// Form de contact
+
+function envoyerForm(e) {
+    alert("Votre message a bien été envoyé.");
+}

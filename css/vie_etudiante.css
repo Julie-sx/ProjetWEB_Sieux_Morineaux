@@ -21,6 +21,30 @@ main {
     background: linear-gradient(to right, rgba(10, 49, 108, 0.9), rgba(10, 49, 108, 0.25));
 }
 
+            /* ---- Barre de recherche ---- */
+
+.asso-recherche {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.asso-recherche__icone {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.1rem;
+    color: black;
+    pointer-events: none;
+}
+
+.asso-recherche input {
+    width: 100%;
+    padding: 10px 16px 10px 36px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
 .hero-vie-texte {
     position: absolute;
     top: 50%;

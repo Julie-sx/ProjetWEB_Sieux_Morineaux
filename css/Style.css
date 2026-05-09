@@ -258,37 +258,6 @@ nav {
   }
 }
 
-        /* ---- Cartes ---- */
-
-.en-tete {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    cursor: pointer;
-    user-select: none;
-}
-
-.en-tete:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--color-bleuAcademique);
-}
-
-.a-afficher {
-    display: none;
-    position : relative;
-    left : 3%;
-}
-
-.carte {
-    border: 1px solid black;
-    border-radius: 12px;
-    width : 95%;
-    position: relative;
-    left : 1.5%;
-    padding : 1%;
-    background-color: #99999918;
-}
-
       /* ---- footer ---- */
 
 footer {
