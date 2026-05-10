@@ -95,3 +95,7 @@ button[type="submit"] {
          flex: 0 0 calc(50%);
     }
 }
+
+.logoEfrei {
+    width : 50%;
+}

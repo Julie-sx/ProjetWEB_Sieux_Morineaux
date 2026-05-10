@@ -22,6 +22,10 @@ window.addEventListener("resize", function () {
 
 // Fonctions pour les boutons sur la photo d'accueil
 
+function voirPlus() {
+    window.location.replace("./Cours.html");
+}
+
 function contact() {
     window.location.replace("./Contact.html");
 }

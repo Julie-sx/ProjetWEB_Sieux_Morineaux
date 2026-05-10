@@ -23,6 +23,11 @@ section {
   color : var(--color-blancPur);
 }
 
+#photo-accueil {
+   height : 100%;
+   width : 100%;
+}
+
     /* ---- Ombre en haut de l'image ---- */
 
 #ombre::before {

@@ -124,6 +124,10 @@ button:hover {
 
       /* ---- Menu et header ---- */
 
+.logo {
+  width : 15%;
+}
+
 header {
     top : 0;
     position : sticky;
@@ -132,6 +136,7 @@ header {
 
 #menu-burger {
     display: none;
+    width : 4%;
 }
 
 nav {

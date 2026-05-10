@@ -12,8 +12,8 @@
 <body>
     <header>
         <nav>
-            <img class="logo" href="https://www.efrei.fr" src="../data/Logo-Efrei.png" alt="Efrei_logo" width="15%">
-            <img id="menu-burger" class="logo" src="../data/burger-menu.svg" width="4%" onclick="afficherMenu()">
+            <img class="logo" src="../data/Logo-Efrei.png" alt="Efrei_logo">
+            <img id="menu-burger" class="logo" src="../data/burger-menu.svg" onclick="afficherMenu()" alt="menuBurger">
             <div class="liens" id="liens">
                 <a href="./Accueil.html">Accueil</a>
                 <a href="./Cours.html">Cours</a>
@@ -34,12 +34,12 @@
     <section id="ombre">
         <div id="survol-section"></div>
         <a href = "https://www.efrei.fr">
-            <img id="photo-accueil" src = "../data/Header_etudiants.jpg" alt = "Efrei_img" height = "100%" width = "100%">
+            <img id="photo-accueil" src = "../data/Header_etudiants.jpg" alt = "Efrei_img">
         </a>
         <div id="texte-photo-accueil">
             <h1>Construis ton avenir dans la tech dès aujourd'hui.</h1>
             <div id="boutton-photo-accueil">
-                <button class="boutton-photo-accueil">Voir plus</button>
+                <button class="boutton-photo-accueil" onclick="voirPlus()">Voir plus</button>
                 <button class="boutton-photo-accueil" onclick="contact()">Nous contacter</button>
             </div>
         </div>
@@ -48,7 +48,7 @@
     <br>
 
     <section class="infos">
-        <img class="imgAccueil" src="../data/info-desc.jpg">
+        <img class="imgAccueil" src="../data/info-desc.jpg" alt="departementInformatique">
         <div class="texteDesc">
             <h1>Le Département informatique</h1>
             <br>
@@ -79,7 +79,7 @@
                 Située à Villejuif, elle bénéficie d'un environnement proche de Paris et d'un écosystème technologique dynamique.
             </p>
         </div>
-        <img class="imgAccueil" src="../data/efrei-desc.jpg">
+        <img class="imgAccueil" src="../data/efrei-desc.jpg" alt="EFREI">
     </section>
 
     <br>
@@ -91,13 +91,13 @@
         <hr class="ligne">
         <div class="chiffres-cle">
             <div class="chiffre">
-                <h3>13</h3><p> majeures</p>
+                <h2>13</h2><p> majeures</p>
             </div>
             <div class="chiffre">
-                <h3>98 %</h3><p> d'insertion en IT</p>
+                <h2>98 %</h2><p> d'insertion en IT</p>
             </div>
             <div class="chiffre">
-                <h3>+2000</h3><p>entreprises tech partenaires</p>
+                <h2>+2000</h2><p>entreprises tech partenaires</p>
             </div>
         </div>
     </section>
@@ -114,7 +114,7 @@
             <h2>Prochaine ouverture de l'Ilab</h2>
             <br>
             <p>
-                L'Ilab ouvre bientôt ses portes pour accueillir de nouveaux projets innovants. 
+                L'Ilab est une infrastructure de l'Efrei contenant de nombreux équipements informatiques. 
                 Venez découvrir cet espace dédié à la créativité et à la collaboration.
             </p>
         </div>

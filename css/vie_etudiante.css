@@ -26,6 +26,7 @@ main {
 .asso-recherche {
     position: relative;
     margin-bottom: 20px;
+    width : 90%;
 }
 
 .asso-recherche__icone {
